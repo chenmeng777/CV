@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Project cards */
+.project-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Paper entries */
+.paper-entry {
+    border-left: 3px solid #3498db;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Photo gallery */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.photo-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.photo-grid img {
+    width: 100%;
+    /* border-radius: 8px; */ 
+    /*object-fit: cover;*/
+    height: auto;
+    display: block;
+}
+
+
+
+.photo-grid .caption {
+    margin-top: auto;
+    font-size: 0.85rem;
+    color: #444;
+    line-height: 1.4;
+    padding-top: 0.5rem;
+}
+
+/* Personal Introduction */
+.introduction {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-picture {
+    width: 250px;
+    height: 300px;
+    border-radius: 0;
+    object-fit: cover;
+    border: 3px solid #4a6cf7;
+}
+
+.bio p {
+    line-height: 1.7;
+    max-width: 600px;
+}
