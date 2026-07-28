@@ -56,11 +56,40 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-/* 视频容器样式 */
+
 .photo-grid .video-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.personal-photos {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;   
+}
+
+.personal-photos .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.personal-photos .photo-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.personal-photos .caption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #555;
+    text-align: center;
 }
 
 .photo-grid .video-container video {
